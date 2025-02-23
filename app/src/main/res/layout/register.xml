@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="이메일"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#F8F1F1" />
+
+    <EditText
+        android:id="@+id/r_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="비밀번호(8자리 이상)"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#F8F1F1" />
+
+    <EditText
+        android:id="@+id/checkpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/completeregisterbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#DA2836"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

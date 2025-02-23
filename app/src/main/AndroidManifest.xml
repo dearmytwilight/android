@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaseBallClub"
+        tools:targetApi="31">
+
+        <!--컨텐츠 프로바이더 -->
+        <provider
+            android:name=".bbcContentProvider"
+            android:authorities="edu.sungshin.baseballclub.provider"
+            android:exported="true"
+            android:permission="android.permission.READ_EXTERNAL_STORAGE"
+            android:grantUriPermissions="true" />
+
+
+        <!-- 메인액티비티 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 메인페이지 어댑터 -->
+        <activity
+            android:name=".MainPagerAdapter"
+            android:label="mainpageradapter" />
+
+        <!-- 프래그먼트 -->
+        <activity
+            android:name=".MyPageFragment"
+            android:label="mypagefrag" />
+        <activity
+            android:name=".MyTeamFragment"
+            android:label="myteamfrag" />
+        <activity
+            android:name=".StadiumFragment"
+            android:label="stadiumfrag" />
+        <activity android:name=".CalendarFragment"
+            android:label="calendarfrag" />
+        <activity android:name=".MyTeamSelectFragment"
+            android:label="selectfrag" />
+
+        <!-- 마이팀 캘린더 -->
+        <activity
+            android:name=".Calendar"
+            android:label="MyteamCalender"/>
+
+        <!-- 경기장 -->
+        <activity
+            android:name=".StadiumHanhwa"
+            android:label="StadiumHanhwa" />
+        <activity
+            android:name=".FacilitiesHanhwa"
+            android:label="FacilitiesHanhwa" />
+        <activity
+            android:name=".FnBHanhwa"
+            android:label="FoodHanhwa" />
+        <activity
+            android:name=".StadiumKia"
+            android:label="StadiumKia" />
+        <activity
+            android:name=".FacilitiesKia"
+            android:label="FacilitiesKia" />
+        <activity
+            android:name=".FnBKia"
+            android:label="FoodKia" />
+        <activity
+            android:name=".StadiumKiwoom"
+            android:label="StadiumKiwoom" />
+        <activity
+            android:name=".FacilitiesKiwoom"
+            android:label="FacilitiesKiwoom" />
+        <activity
+            android:name=".FnBKiwoom"
+            android:label="FoodKiwoom" />
+        <activity
+            android:name=".StadiumKt"
+            android:label="StadiumKt" />
+        <activity
+            android:name=".FacilitiesKt"
+            android:label="FacilitiesKt" />
+        <activity
+            android:name=".FnBKt"
+            android:label="FoodKt" />
+        <activity
+            android:name=".StadiumLgds"
+            android:label="StadiumLgds" />
+        <activity
+            android:name=".FacilitiesLgds"
+            android:label="FacilitiesLgds" />
+        <activity
+            android:name=".FnBLgds"
+            android:label="FoodLgds" />
+        <activity
+            android:name=".StadiumLotte"
+            android:label="StadiumLotte" />
+        <activity
+            android:name=".FacilitiesLotte"
+            android:label="FacilitiesLotte" />
+        <activity
+            android:name=".FnBLotte"
+            android:label="FoodLotte" />
+        <activity
+            android:name=".StadiumNc"
+            android:label="StadiumNc" />
+        <activity
+            android:name=".FacilitiesNc"
+            android:label="FacilitiesNc" />
+        <activity
+            android:name=".FnBNc"
+            android:label="FoodNc" />
+        <activity
+            android:name=".StadiumSamsung"
+            android:label="StadiumSamsung" />
+        <activity
+            android:name=".FacilitiesSamsung"
+            android:label="FacilitiesSamsung" />
+        <activity
+            android:name=".FnBSamsung"
+            android:label="FoodSamsung" />
+        <activity
+            android:name=".StadiumSsg"
+            android:label="StadiumSsg" />
+        <activity
+            android:name=".FacilitiesSsg"
+            android:label="FacilitiesSsg" />
+        <activity
+            android:name=".FnBSsg"
+            android:label="FoodSsg" />
+
+        <!-- 마이 페이지 -->
+        <activity
+            android:name=".register"
+            android:label="register" />
+        <activity
+            android:name=".LoginSuccessActivity"
+            android:exported="true"
+            android:label="loginsuccess">
+        </activity>
+
+
+    </application>
+
+</manifest>

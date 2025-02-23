@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <CheckBox
+        android:id="@+id/kia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="기아 타이거즈" />
+
+    <CheckBox
+        android:id="@+id/dusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="두산 베어스" />
+
+    <CheckBox
+        android:id="@+id/lotte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="롯데 자이언츠" />
+
+    <CheckBox
+        android:id="@+id/samsung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="삼성 라이온즈" />
+
+    <CheckBox
+        android:id="@+id/ssg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="SSG 랜더스" />
+
+    <CheckBox
+        android:id="@+id/nc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="NC 다이노스" />
+
+    <CheckBox
+        android:id="@+id/lg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="LG 트윈스" />
+
+    <CheckBox
+        android:id="@+id/kt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="KT 위즈" />
+
+    <CheckBox
+        android:id="@+id/kiwoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="키움 히어로즈" />
+
+    <CheckBox
+        android:id="@+id/hanhwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="#F8F1F1"
+        android:textColor="#000000"
+        android:text="한화 이글스" />
+</LinearLayout>
+
+</LinearLayout>

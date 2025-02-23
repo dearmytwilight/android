@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/tabhost"
+        android:orientation="vertical">
+
+    <!-- Toolbar: 상단 고정 -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mypagetoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#DA2836"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/mypagetoolbar_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon"
+            android:layout_marginStart="5dp"
+            android:contentDescription="Toolbar Image" />
+
+        <TextView
+            android:id="@+id/mypagetoolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="탭이름"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:id="@+id/themebutton"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="⁝"
+            android:textSize="30dp"
+            android:layout_marginLeft="150dp"
+            android:background="#DA2836"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <!-- ViewPager2: 중앙 콘텐츠 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_above="@id/tabLayout"
+        app:layout_constraintBottom_toTopOf="@id/tabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mypagetoolbar">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabTextColor="#000000"
+        android:background="#ffffff"/>
+
+</LinearLayout>

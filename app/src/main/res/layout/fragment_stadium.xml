@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:paddingTop="100dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF">
+
+        <ImageButton
+            android:id="@+id/imakia"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+            android:src="@drawable/kia" />
+
+        <ImageButton
+            android:id="@+id/imalgds"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+            android:src="@drawable/lgds" />
+
+        <ImageButton
+            android:id="@+id/imalotte"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+
+            android:src="@drawable/lotte" />
+
+        <ImageButton
+            android:id="@+id/imasamsung"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+
+            android:src="@drawable/samsung" />
+
+        <ImageButton
+            android:id="@+id/imassg"
+            android:layout_marginTop="10dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+
+            android:src="@drawable/ssg" />
+
+        <ImageButton
+            android:id="@+id/imanc"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+
+            android:src="@drawable/nc" />
+
+        <ImageButton
+            android:id="@+id/imakt"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kt" />
+
+        <ImageButton
+            android:id="@+id/imakiwoom"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kiwoom" />
+
+        <ImageButton
+            android:id="@+id/imahanhwa"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitCenter"
+            android:background="#F8F1F1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hanhwa" />
+
+
+    </GridLayout>
+

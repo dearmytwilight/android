@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397429392242",
+    "project_id": "baseballclub-b11d0",
+    "storage_bucket": "baseballclub-b11d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397429392242:android:c315815fb64b044252d3eb",
+        "android_client_info": {
+          "package_name": "edu.sungshin.baseballclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPz7l6lFYkYFY19P_AZAYTqmEIKZJRmQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

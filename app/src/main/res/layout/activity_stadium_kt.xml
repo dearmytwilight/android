@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Toolbar: 상단 고정 -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mypagetoolbar_kt"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#DA2836"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/mypagetoolbar_image_kt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon"
+            android:layout_marginStart="5dp"
+            android:contentDescription="Toolbar Image" />
+
+        <TextView
+            android:id="@+id/mypagetoolbar_title_kt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KT 위즈"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- 내부 편의시설 버튼 -->
+    <Button
+        android:id="@+id/facilities_kt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#F8F1F1"
+        android:text="내부 편의시설"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <!-- 내부 맛집 버튼 -->
+    <Button
+        android:id="@+id/fnb_kt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#F8F1F1"
+        android:text="내부 맛집"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+</LinearLayout>
